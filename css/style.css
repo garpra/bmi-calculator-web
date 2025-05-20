@@ -1,0 +1,160 @@
+/* Container styling */
+.container {
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  background-color: #0a0e21;
+  min-height: 100vh;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* Logo section */
+#logo-section {
+  text-align: center;
+  padding: 20px;
+}
+
+#logo-section h1 {
+  font-size: 2.2em;
+  margin-bottom: 10px;
+}
+
+#logo-section h2 {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+  color: #0cd174;
+}
+
+#logo-section p {
+  margin: 0 auto;
+  max-width: 600px;
+  padding: 0 1em;
+}
+
+/* Calculator section */
+#calculator-section {
+  border: 2px solid #fff;
+  border-radius: 1em;
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 600px;
+  background-color: #12162d;
+}
+
+#calculator-section h1 {
+  font-size: 2em;
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+/* Form styling */
+#form {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  padding: 0 1em;
+}
+
+label {
+  font-weight: 600;
+}
+
+input {
+  border: none;
+  outline: none;
+  border-radius: 0.8em;
+  padding: 10px;
+  font-size: 1em;
+}
+
+/* Button area */
+#button-area {
+  display: flex;
+  gap: 10px;
+  margin-top: 2em;
+}
+
+button {
+  flex: 1;
+  padding: 10px;
+  border-radius: 0.8em;
+  border: none;
+  font-size: 1em;
+  transition: background-color 0.3s ease;
+}
+
+/* Calculate button */
+#calculate-btn {
+  background-color: #6c63ff;
+  color: #fff;
+}
+
+#calculate-btn:hover {
+  background-color: #534dca;
+  cursor: pointer;
+}
+
+/* Reset button */
+#reset-btn {
+  background-color: #ff0067;
+  color: #fff;
+}
+
+#reset-btn:hover {
+  background-color: #ca0051;
+  cursor: pointer;
+}
+
+/* Result area */
+#result-area {
+  margin: 2em;
+  border: 2px solid #4d47b8;
+  border-radius: 1em;
+  text-align: center;
+  padding: 20px;
+  max-width: 600px;
+  background-color: #1a1f3d;
+}
+
+#result-area h3 {
+  font-size: 1.8em;
+  margin-bottom: 10px;
+}
+
+/* Responsive */
+@media (min-width: 540px) {
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0px;
+  }
+
+  /* Logo section */
+  #logo-section {
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  #logo-section h1 {
+    font-size: 3em;
+  }
+
+  #logo-section h2 {
+    font-size: 2em;
+  }
+
+  #logo-section p {
+    font-size: 1.3em;
+    padding: 0 5em;
+  }
+
+  /* Calculator section */
+  #calculator-section {
+    margin: 20px 5em;
+    padding: 20px;
+    max-width: 600px;
+    background-color: #12162d;
+  }
+}
