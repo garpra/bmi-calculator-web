@@ -13,13 +13,13 @@ This is a simple Body Mass Index (BMI) Calculator built using HTML, CSS, and Jav
 Clone the repository:
 
 ```bash
-git clone https://github.com/garpra/mini-web-projects.git
+git clone https://github.com/garpra/bmi-calculator-web
 ```
 
 Navigate to the project folder:
 
 ```bash
-cd mini-web-projects/bmi-calculator
+cd bmi-calculator
 ```
 
 Open index.html in your browser or use Live Server.
